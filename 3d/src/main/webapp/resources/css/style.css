@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F5F5F5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-image: url(../img/2011071541137421.gif);
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.list {
+	border-collapse: collapse;
+	margin: 5px auto;
+	width: 98%;
+	table-layout: fixed;
+}
+
+.list th,.list td {
+	border: #999 solid 1px;
+	padding: 3px;
+}
+
+.list th {
+	background-color: #000;
+	color: #FFF;
+	text-align: left;
+	border: #FFF solid 1px;
+	border-bottom: #CCC groove 3px;
+}
+
+.list tr:hover {
+	background-color: #EBEB85;
+}
+
+.formTable {
+	border-collapse: collapse;
+	margin: 20px auto;
+	margin-top: 150px;
+	border: #ccc solid 1px;
+	border-top: #CCC inset 5px;
+	border-bottom: #CCC groove 5px;
+	padding: 10px;
+	border-left: #CCC groove 100px;
+	border-right: #CCC inset 100px;
+	background-color: #FFF;
+}
+
+.formTable td {
+	line-height: 30px;
+	padding: 5px;
+}
+
+#leftContent,#rightContent {
+	border: #ccc groove 3px;
+	margin-top: 10px;
+	height: 635px;
+	overflow: auto;
+	float: left;
+	margin-left: 10px;
+}
+
+#leftContent {
+	width: 62%;
+}
+
+#rightContent {
+	width: 34%;
+}
+
+.zimi {
+	border-collapse: collapse;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 196px;
+	height: 264px;
+	background-color: #F5F5F5;
+}
+
+.zimi:hover {
+	background-color: #F0F0A2;
+}
+
+.hotzimi{
+	background-color: #EBEB85;
+}
+
+.zimi td {
+	border: #CCC solid 1px;
+	padding: 7px;
+}
+
+.zimi {
+	float: left;
+}
+
+.thead {
+	width: 98%;
+	margin: 0px auto;
+	margin-left: 4px;
+	background-color: #000;
+	margin-top: 0px;
+	color: #FFF;
+	text-align: left;
+	border: #000 solid 1px;
+	border-bottom: #CCC groove 3px;
+	position: fixed;
+}
+
+.thead span {
+	display: inline-block;
+	border: #FFF solid 1px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.bihua {
+	color: #0041E4;
+	font-weight: bolder;
+}
+
+.kjh {
+	color: #ff0000;
+	font-weight: bolder;
+}
+
+.total{
+	color:#fff;
+	font-weight: bolder;
+}
